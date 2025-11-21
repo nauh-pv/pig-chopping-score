@@ -329,7 +329,10 @@ const PigScoreManager = () => {
 
         {/* Add Player Modal */}
         {showAddPlayer && (
-          <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
+          <div
+            className="fixed inset-0 flex items-center justify-center p-4 z-50"
+            style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }}
+          >
             <div className="bg-white rounded-2xl p-6 w-full max-w-md shadow-2xl">
               <div className="flex items-center justify-between mb-4">
                 <h3 className="text-xl font-bold text-gray-800">
@@ -370,9 +373,11 @@ const PigScoreManager = () => {
           </div>
         )}
 
-        {/* Add Round Modal */}
         {showAddRound && (
-          <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50 overflow-y-auto">
+          <div
+            className="fixed inset-0  flex items-center justify-center p-4 z-50 overflow-y-auto"
+            style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }}
+          >
             <div className="bg-white rounded-2xl p-6 w-full max-w-md shadow-2xl my-8">
               <div className="flex items-center justify-between mb-4">
                 <h3 className="text-xl font-bold text-gray-800">
@@ -423,7 +428,10 @@ const PigScoreManager = () => {
 
         {/* Player Detail Modal */}
         {showPlayerDetail && selectedPlayer && (
-          <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50 overflow-y-auto">
+          <div
+            className="fixed inset-0  flex items-center justify-center p-4 z-50 overflow-y-auto"
+            style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }}
+          >
             <div className="bg-white rounded-2xl p-6 w-full max-w-2xl shadow-2xl my-8">
               <div className="flex items-center justify-between mb-6">
                 <div>
